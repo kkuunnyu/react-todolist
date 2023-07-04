@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const TodoTemplate = ({children}) => {
   return (
     <TotoWrapper>
-      <AppTitle>Todo List 📝</AppTitle>
+      <AppTitle>To Do List 📝</AppTitle>
       <Content>
         {children}
       </Content>

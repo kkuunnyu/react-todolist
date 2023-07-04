@@ -21,7 +21,7 @@ const TodoInsert = ({onInsert}) => {
     <TodoInserWrapper onSubmit={onSubmit}>
       <input 
       type="text" 
-      placeholder='할 일을 입력하세요' 
+      placeholder='할 일을 입력하세요 🖊' 
       value={value}
       onChange={onChange}
       />
@@ -36,6 +36,7 @@ const TodoInserWrapper = styled.form`
   
   input{
     background : none;
+    font-family: 'Poor Story', cursive;
     outline : none;
     border : none;
     padding : 0.5rem;
@@ -43,7 +44,7 @@ const TodoInserWrapper = styled.form`
     line-height : 1.5;
     color : #fff;
     &::placeholder {
-      color : #6dd2e6;
+      color : yellowgreen;
     }
     flex : 1;
   }

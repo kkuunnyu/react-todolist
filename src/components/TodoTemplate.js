@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const TodoTemplate = ({children}) => {
   return (
     <TotoWrapper>
-      <AppTitle>Todo List 📑</AppTitle>
+      <AppTitle>Todo List 📝</AppTitle>
       <Content>
         {children}
       </Content>
@@ -23,8 +23,8 @@ const TotoWrapper = styled.div`
 `;
 
 const AppTitle = styled.h1`
-  background : #22b8cf;
-  font-size : 16px;
+  background : yellowgreen;
+  font-size : 25px;
   height : 4rem;
   display :flex;
   justify-content : center;

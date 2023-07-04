@@ -56,7 +56,7 @@ const CheckBox = styled.div`
 
   &.checked{
     svg{
-      color : #22b8cf;
+      color : yellowgreen;
     }
     .text{
       color : #adb5bd;
